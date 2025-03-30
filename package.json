@@ -1,0 +1,14 @@
+{
+    "name": "amazon-review-framework",
+    "version": "1.0.0",
+    "description": "A framework for creating exceptional product reviews using Claude and YAML-based guidelines",
+    "main": "review-generator.js",
+    "scripts": {
+        "start": "node review-generator.js"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.10.0",
+        "dotenv": "^16.3.1",
+        "js-yaml": "^4.1.0"
+    }
+}
